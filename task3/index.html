@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+</head>
+<body>
+    <div  style="text-align: center;">
+    <h2>Event Registration</h2>
+    <form action="" method="post">
+        <p>
+            <label for="First_name">
+                Full Name:<input type="text" id="First_name" name="First_name"/>
+            </label><br><br>
+            <label for="email">
+                email:<input type="email" id="email" name="email">
+            </label><br><br>
+            <label for="Phone_Number">
+                Phone Number:<input type="number" id="Phone_Number" name="Phone_Number">
+            </label><br><br>
+            <label for="number_of_attendence">
+                Number of attendence:<input type="number" id="number_of_attendence" name="number_of_attendence" min="1" max="10">
+            </label><br><br>
+            <label for="event_date">
+                Event Date:<input type="date" id="event_date" name="event_date">
+            </label><br><br>
+            <label for="event_time">
+                Event Date:<input type="time" id="event_time" name="event_time">
+            </label><br><br>
+            <label for="Event_type">
+                Event Type:
+                <select id="Event_type" >
+                    <option disabled selected>select an event type</option>
+                    <option value="Conference">Conference</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Webinar">Webinar</option>
+                </select>
+            </label><br><br>
+            <label for="Dietary_Restrictions">
+                Dietary Restrictions:
+                vegiterian:<input type="checkbox" name="Dietary_Restrictions" id="Dietary_Restrictions" value="vegiterian">
+                Gluten-Free:<input type="checkbox" name="Dietary_Restrictions" id="Dietary_Restrictions" value="vegiterian">
+            </label><br><br>
+             <label for="shirt_size">
+                T-shirt Size:
+                
+            </label><br><br>
+                T-shirt Size:
+                <input type="radio" id="size-s" name="tshirt-size" value="S" required>S
+                <input type="radio" id="size-m" name="tshirt-size" value="M">M
+                <input type="radio" id="size-l" name="tshirt-size" value="L">L
+                <input type="radio" id="size-xl" name="tshirt-size" value="XL">XL
+            </label><br><br>
+            <label for="comments">
+                Comments/Questions:<textarea maxlength="250" rows="2"></textarea>  
+            </label><br><br>
+            <label for="sumbit">
+                <button type="submit">submit</button>
+            </label>
+        </p>
+    </form>
+    </div>
+</body>
+</html>
